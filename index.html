@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>แนะนำตัวเอง</title>
+    <style>
+        /* ตั้งค่าพื้นฐานของหน้า */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        /* การจัดเรียงกล่องโปรไฟล์ */
+        .profile-container {
+            background-color: #fff;
+            width: 90%;
+            max-width: 700px;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            text-align: center;
+        }
+
+        /* การตั้งค่าให้รูปโปรไฟล์ */
+        .profile-image {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            margin-top: -50px;
+            object-fit: cover;
+            border: 4px solid #fff;
+        }
+
+        /* ตั้งค่าข้อความต่าง ๆ */
+        h1 {
+            font-size: 24px;
+            color: #333;
+        }
+        p {
+            color: #555;
+            line-height: 1.6;
+        }
+        .about-me {
+            margin: 20px 0;
+        }
+        .hobbies, .skills {
+            margin-bottom: 10px;
+        }
+        /* ตั้งค่าปุ่มสำหรับลิงก์ต่าง ๆ */
+        .social-links a {
+            display: inline-block;
+            margin: 0 10px;
+            text-decoration: none;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="profile-container">
+        <!-- รูปโปรไฟล์ -->
+        <img src="https://scontent.fbkk7-3.fna.fbcdn.net/v/t39.30808-6/426483292_1382698832388250_2831260333486653596_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=a5f93a&_nc_ohc=5eGdmrVT6hAQ7kNvgH9ObOW&_nc_zt=23&_nc_ht=scontent.fbkk7-3.fna&_nc_gid=Ax01qX84cran2jNhVfIjenV&oh=00_AYA6dIvWno6RtSr2RgQvcok_42isnPqf69x5ep85AGtIrA&oe=67314808" alt="รูปโปรไฟล์" class="profile-image">
+
+        <!-- ข้อมูลแนะนำตัว -->
+        <h1>ชื่อของคุณ</h1>
+        <p class="about-me">สวัสดีค่ะ! ฉันชื่อ [นางสาว ทานตะวัน รัดกุม รหัสนึกศึกษา 65008277] เป็นนักศึกษามหาวิทยาลัยศรีปทุม คณะเทคโนโลยรสารสนเทศ สาขา วิศกรรมคอมพิวเตอร์</p>
+
+        <!-- งานอดิเรก -->
+        <div class="hobbies">
+            <h3>งานอดิเรก</h3>
+            <p>การถ่ายภาพ, วาดภาพ, เล่นดนตรี</p>
+        </div>
+
+        <!-- ทักษะ -->
+        <div class="skills">
+            <h3>ทักษะ</h3>
+            <p>HTML, CSS, JavaScript, การออกแบบ UI/UX</p>
+        </div>
+
+        <!-- ลิงก์โซเชียลมีเดีย -->
+        <div class="social-links">
+            <h3>ติดตามฉันได้ที่</h3>
+            <a href="https://facebook.com/yourprofile" target="_blank">Facebook</a>
+            <a href="https://instagram.com/yourprofile" target="_blank">Instagram</a>
+            <a href="https://linkedin.com/in/yourprofile" target="_blank">LinkedIn</a>
+        </div>
+    </div>
+
+</body>
+</html>
